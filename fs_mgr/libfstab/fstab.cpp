@@ -212,7 +212,6 @@ bool ParseFsMgrFlags(const std::string& flags, FstabEntry* entry) {
         CheckFlag("wrappedkey", wrapped_key);
         CheckFlag("overlay=on", overlay_on);
         CheckFlag("overlay=off", overlay_off);
-        CheckFlag("wrappedkey", wrapped_key);
 
 #undef CheckFlag
 
